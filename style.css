@@ -1,0 +1,398 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(148, 91, 76);
+}
+
+.principal{
+   background-color: bisque;
+   color:  rgb(148, 91, 76);
+   width: 100%;
+   height: 10vh;
+   display: flex;
+   font-size: 10rem; 
+   font-family:'Times New Roman', Times, serif;
+   padding: 5% ;
+}
+
+div.logo{
+    background-color: bisque;
+    display: flex;
+}
+
+div.logo img{
+    background-color: bisque;
+    width: 20%;
+    height: 20%;
+    margin-left: 70px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.header .nav-links{
+    list-style: none;    
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+    margin-left: 230px;
+}
+
+
+.header .nav-links a{
+    font-size: 150%;
+    color: bisque;
+    text-decoration: none;
+}
+.header .nav-links li a:hover{
+    color: aqua;
+}
+
+video{
+    width: 40%;
+    display: flex;
+    margin-left: 30%;
+}
+
+h2{
+    color: rgb(148, 91, 76);
+    text-align:center;
+    background-color: bisque;
+    width: 100%;
+    align-items: center;
+    font-size: 5rem;
+}
+
+.titulo-cajas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cajas{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.cajas img{
+    padding: 20px;
+    width: 30%;
+}
+
+.nav-linksc li{
+    display: flex;
+    padding: 20px;
+    color: rgb(148, 91, 76);
+    font-size: 100%;
+}
+
+.comprar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.titulo-crochet{
+    display: flex;
+    justify-content: space-around;
+}
+
+.crochet{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.crochet img{
+    padding: 20px;
+    width: 30%;
+}
+
+.nombre-crochet{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.comprar-crochet{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.nav-linksc li:hover{
+    transform: scale(1.1);
+}
+
+.nav-linksc a{
+    font-size: 150%;
+    color: bisque;
+    text-decoration: none;
+}
+.header .nav-links li a:hover{
+    color: aqua;
+    margin-left: 50%;
+}
+button li{
+    background: bisque;
+    color: rgb(148, 91, 76);
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+}
+
+.titulo-registro{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+p{
+    padding: 20px;
+    font-size: 200%;
+    color: bisque;
+}
+
+.contacto h3{
+    font-size: 300%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: bisque;
+    padding-inline-start: 5%;
+    color: rgb(148, 91, 76);
+    
+}
+
+@media (max-width:1024px){
+
+    .principal{
+        background-color: bisque;
+        color:  rgb(148, 91, 76);
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        font-size: 5.7rem; 
+        font-family:'Times New Roman', Times, serif;
+        padding: 6% ;
+     }
+     
+     div.logo img{
+        background-color: bisque;
+        width: 20%;
+        height: 20%;
+        margin-left: 50px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 20%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .header .nav-links li{
+        display: inline-block;
+        margin-left: 5px;
+        font-size: 130%;
+    }
+
+    video{
+        width: 40%;
+        display: flex;
+        margin-left: 30%;
+    }
+
+    h2{
+        color: rgb(148, 91, 76);
+        text-align:center;
+        background-color: bisque;
+        width: 100%;
+        align-items: center;
+        font-size: 4rem;
+    }
+
+    .nav-linksc{
+        font-size: 110%;
+        padding: 20 0 20 0px;
+    }
+
+    .registro{
+        margin-left: 10%;
+    }
+
+    .contcont{
+        font-size: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 50px;
+        padding: 20px;
+    }
+    .last{
+        font-size: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 50px;
+        padding: 10px;
+    }
+}
+
+@media (max-width:768px){
+
+    .principal{
+        background-color: bisque;
+        color:  rgb(148, 91, 76);
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        font-size: 4.3rem; 
+        font-family:'Times New Roman', Times, serif;
+        padding: 6% ;
+     }
+     
+     div.logo img{
+        background-color: bisque;
+        width: 20%;
+        height: 20%;
+        margin-left: 40px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 20%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .header .nav-links li{
+        display: inline-block;
+        margin-left: 5px;
+        font-size: 90%;
+    }
+
+    video{
+        width: 40%;
+        display: flex;
+        margin-left: 32%;
+    }
+
+    h2{
+        color: rgb(148, 91, 76);
+        text-align:center;
+        background-color: bisque;
+        width: 100%;
+        align-items: center;
+        font-size: 3rem;
+    }
+
+    .nav-linksc{
+        font-size: 81%;
+        padding: 20 0 20 0px;
+    }
+
+    .registro{
+        margin-left: 10%;
+    }
+
+    .contcont{
+        font-size: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 50px;
+        padding: 20px;
+    }
+    .last{
+        font-size: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 50px;
+        padding: 10px;
+    }
+}
+
+
+@media (max-width:480px){
+
+    .principal{
+        background-color: bisque;
+        color:  rgb(148, 91, 76);
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        font-size: 2.2rem; 
+        font-family:'Times New Roman', Times, serif;
+        padding: 6% ;
+     }
+     
+     div.logo img{
+        background-color: bisque;
+        width: 20%;
+        height: 20%;
+        margin-left: 30px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 20%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .header .nav-links li{
+        display: inline-block;
+        margin-left: 5px;
+        font-size: 45%;
+    }
+
+    video{
+        width: 40%;
+        display: flex;
+        margin-left: 28%;
+    }
+
+    h2{
+        color: rgb(148, 91, 76);
+        text-align:center;
+        background-color: bisque;
+        width: 100%;
+        align-items: center;
+        font-size: 2rem;
+    }
+
+    .nav-linksc{
+        font-size: 51%;
+        padding: 20 0 20 0px;
+    }
+
+    .registro{
+        margin-left: 10%;
+    }
+
+    .contcont{
+        font-size: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 50px;
+        padding: 10px;
+    }
+    .last{
+        font-size: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 50px;
+        padding: 10px;
+    }
+}
